@@ -12,17 +12,30 @@
     margin-top: 0 auto;
 }
 
-@media (min-width: 1199px) {
-    .intro_slogan h1{
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
+.services-list{
+    justify-content: center;
+    list-style-type: none;
+    padding:1em;
+}
+
+.diy {
+    justify-content: center;
 }
 
 .logo {
     width: 5em;
 }
 
+footer {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+footer a{
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .navbar-toggler {
@@ -74,3 +87,26 @@
     }
 
 }
+
+
+
+/* slider */
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  .slide {
+    width: 90%;
+    height: 50%;
+  }
+
+  .slide img{
+    width: 200px;
+  }
+  
