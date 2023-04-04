@@ -1,0 +1,62 @@
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.logo {
+    width: 5em;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: flex;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .nav-item {
+        flex: 1;
+        text-align: center;
+    }
+
+    .--logo-intro {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        padding-top: 0 auto;
+        margin-top: 0 auto;
+    }
+    .services-list{
+        justify-content: center;
+        list-style-type: none;
+        padding:1em;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .footer-info{
+        text-decoration: none;
+        margin: 0 auto;
+        padding: 0 auto;
+        justify-content: center;
+    }
+    .footer-info a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-brands{
+       justify-content: space-between;
+       
+    }
+    .nav-item {
+        justify-content: center;
+    }
+}
