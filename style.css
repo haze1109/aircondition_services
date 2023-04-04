@@ -82,10 +82,10 @@ footer a{
     }
 
     .fa-brands{
-       justify-content: space-between;
-       
+       justify-content: center;
+       font-size: 2em;
     }
-
+   
 }
 
 
