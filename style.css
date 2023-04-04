@@ -37,6 +37,7 @@ footer a{
     text-decoration: none;
 }
 
+
 @media (max-width: 768px) {
     .navbar-toggler {
         display: flex;
@@ -53,7 +54,7 @@ footer a{
     }
 
     .--logo-intro {
-        width: 100%;
+        width: 90vw;
         justify-content: center;
         display: flex;
         padding-top: 0 auto;
