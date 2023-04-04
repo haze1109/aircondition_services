@@ -10,4 +10,4 @@ setInterval(() => {
   if (counter >= slides.length - 1) return;
   counter++;
   slider.style.transform = `translateX(${-size * counter}px)`;
-}, 3000);
+}, 5000);

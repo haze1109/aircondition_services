@@ -37,7 +37,18 @@ footer a{
     text-decoration: none;
 }
 
+.tech1, .client1{
+    width:100%;
+    justify-content: center;
+    display: flex;
+}
 
+.about p{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    display: block;
+}
 @media (max-width: 768px) {
     .navbar-toggler {
         display: flex;
@@ -110,4 +121,3 @@ footer a{
   .slide img{
     width: 400px;
   }
-  
