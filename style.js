@@ -11,3 +11,6 @@ setInterval(() => {
   counter++;
   slider.style.transform = `translateX(${-size * counter}px)`;
 }, 5000);
+
+
+
